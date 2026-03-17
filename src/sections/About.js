@@ -79,11 +79,12 @@ export default function About() {
 
                   <div className="w-full bg-gray-800 rounded-full h-2 relative">
                     <motion.div
-                      initial={{ width: 0 }}
-                      whileInView={{ width: `${skill.level}%` }}
-                      transition={{ duration: 1 }}
+                      initial={{ scaleX: 0 }}
+                      whileInView={{ scaleX: skill.level / 100 }}
+                      transition={{ duration: 0.9, delay: i * 0.1, ease: [0.25, 1, 0.5, 1] }}
                       viewport={{ once: true }}
-                      className="h-2 bg-green-500 rounded-full relative shadow-[0_0_12px_rgba(34,197,94,0.6)]"
+                      style={{ transformOrigin: "left" }}
+                      className="h-2 bg-green-500 rounded-full relative shadow-[0_0_12px_rgba(34,197,94,0.6)] will-change-transform"
                     >
                       <span className="absolute right-0 top-1/2 -translate-y-1/2 w-[4px] h-4 bg-green-400 rounded-sm shadow-[0_0_10px_#22c55e]"></span>
                     </motion.div>
