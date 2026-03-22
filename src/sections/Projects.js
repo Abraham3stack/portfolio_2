@@ -7,6 +7,14 @@ import Image from "next/image";
 
 const projects = [
   {
+    title: "Chat app",
+    image: "/projects/chat.png",
+    description: "A real-time messaging app similar to WhatsApp, featuring instant messaging, typing indicators, online presence, and read receipts, built for a smooth and responsive chat experience.",
+    tech: ["Next.js", "Node.js", "Express", "MongoDB"],
+    github: "https://github.com/Abraham3stack/chat-app",
+    live: "https://chat-app-indol-kappa-80.vercel.app",
+  },
+  {
     title: "Daily Mind",
     image: "/projects/dailymind.png",
     description: "A social knowledge platform where users can post interesting facts, explore facts shared by others, like, comment and even generate new facts using AI.",
@@ -31,12 +39,29 @@ const projects = [
     live: "https://brew-pay.vercel.app",
   },
   {
+    title: "Bamboo Kitchen",
+    image: "/projects/restaurant.png",
+    description: "A responsive restaurant website designed to showcase menu offerings and brand identity with a clean, fast, and user-friendly experience.",
+    tech: ["Next.js", "TypeScript"],
+    github: "https://github.com/Abraham3stack/bamboo-kitchen",
+    live: "https://bamboo-kitchen.vercel.app",
+  },
+
+  {
     title: "Recipe App",
     image: "/projects/recipe.png",
     description: "A recipe discovery app that fetches meals and detailed cooking instructions when users search for a dish, helping users explore new recipes easily.",
     tech: ["React", "API"],
     github: "https://github.com/Abraham3stack/recipe-app",
     live: "https://recipe-app-upec.vercel.app",
+  },
+  {
+    title: "Ashe's Glow & Spa",
+    image: "/projects/beauty.png",
+    description: "A modern, responsive website for a beauty service provider showcasing pedicure, manicure, massage, and wellness services with a clean and professional layout.",
+    tech: ["Next.js", "TypeScript"],
+    github: "https://github.com/Abraham3stack/ashe-s-glow-website",
+    live: "https://ashe-s-glow-website.vercel.app",
   },
   {
     title: "Message Translator",
