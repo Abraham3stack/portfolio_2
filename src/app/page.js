@@ -8,6 +8,7 @@ import TeckStack from "../sections/TeckStack";
 import Stats from "../sections/Stats";
 import Contact from "../sections/Contact";
 import Footer from "../sections/Footer";
+import WhatsAppButton from "../components/WhatsAppButton";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Stats />
         <Contact />
         <Footer />
+        <WhatsAppButton />
       </main>
     </main>
     

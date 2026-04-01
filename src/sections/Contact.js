@@ -50,7 +50,7 @@ export default function Contact() {
         </h2>
 
         <p className="text-gray-400 mt-4 max-w-xl mx-auto">
-          I’m currently open to internships, junior developer roles, and freelance opportunities. If you’re building something interesting or need a developer, I’d love to be part of it.
+          I am currently open to internship, entry-level, and freelance opportunities. I build full-stack applications using React, Next.js, TypeScript, Node.js, and MongoDB, with experience integrating APIs and email systems. If you're building something interesting or need a developer, I'd love to contribute.
         </p>
 
         <p className="text-sm text-gray-500 mt-2">

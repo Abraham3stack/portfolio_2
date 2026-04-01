@@ -14,32 +14,32 @@ const services = [
   {
     icon: Layout,
     title: "Frontend Development",
-    description: "Building modern responsive interfaces using HTML, CSS, JavaScript, React and Next.js",
+    description: "Building modern, responsive interfaces using React, Next.js, JavaScript, and TypeScript with a focus on performance and clean UI.",
   },
   {
     icon: Code,
-    title: "Full-Stack Web Apps",
-    description: "Developing full web applications with frontend, backend logic and database integration.",
+    title: "Full-Stack Application Development",
+    description: "Developing full-stack applications using Next.js, Node.js, and MongoDB with integrated frontend, backend logic, and scalable architecture.",
   },
   {
     icon: Server,
     title: "API Development",
-    description: "Creating REST APIs using Node.js and Express for scalable application backends.",
+    description: "Building REST APIs using Node.js and Express to power scalable backend systems and real-world applications.",
   },
   {
     icon: Database,
     title: "Database Integration",
-    description: "Designing and connecting MongoDB databases for real-world applications.",
+    description: "Designing and integrating MongoDB databases for efficient data management in full-stack applications.",
   },
   {
     icon: Globe,
     title: "Responsive Design",
-    description: "Ensuring websites look perfect across mobile, tablet and desktop screens.",
+    description: "Creating responsive and user-friendly interfaces that work seamlessly across mobile, tablet, and desktop devices.",
   },
   {
     icon: Rocket,
-    title: "Deployment",
-    description: "Deploying applications using platforms like Vercel and managing projects with Git.",
+    title: "Deployment & DevOps Basics",
+    description: "Deploying and managing applications using Vercel, Railway, and Git, with support for features like email integration using Nodemailer.",
   },
 ];
 
@@ -57,7 +57,7 @@ export default function Services() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Services
+            What I Build
           </h2>
 
           <motion.div

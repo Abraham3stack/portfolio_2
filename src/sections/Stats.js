@@ -7,9 +7,9 @@ export default function Stats() {
   const [start, setStart] = useState(false);
 
   const stats = [
-    { label: "Projects Built", value: 24 },
-    { label: "Technologies Used", value: 10 },
-    { label: "Full-Stack Apps", value: 4 },
+    { label: (<><span>Projects Built</span><br /><span>& Deployed</span></>), value: 30 },
+    { label: (<><span>Technologies</span><br /><span>Used</span></>), value: 12 },
+    { label: "Full-Stack Apps", value: 6 },
     { label: "Months Coding", value: 6 }
   ];
 

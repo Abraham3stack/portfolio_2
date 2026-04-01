@@ -9,7 +9,7 @@ export default function Hero() {
   const titles = [
     "Full-Stack Developer",
     "Next.js Developer",
-    "JavaScript Engineer",
+    "TypeScript & JavaScript Engineer",
     "Building Scalable Web Apps"
   ];
 
@@ -116,7 +116,7 @@ export default function Hero() {
           </p>
 
           <p className="text-gray-300 mb-8 max-w-xl">
-            I build modern full-stack web applications using Next.js, Node.js, Express, and MongoDB — focusing on responsive UI, scalable backend systems, and real-world product experiences.
+            I build modern full-stack web applications using React, Next.js, Node.js, Express, MongoDB, and TypeScript — focused on responsive interfaces, scalable backend systems, and real-world product experiences.
           </p>
 
           <div className="flex gap-4 justify-center md:justify-start">

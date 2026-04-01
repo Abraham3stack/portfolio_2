@@ -165,8 +165,8 @@ export default function Projects() {
             {/* Image */}
             <div className="relative h-72 md:h-full overflow-hidden group">
               <Image
-                src="/projects/dailymind.png"
-                alt="Daily Mind"
+                src="/projects/chat.png"
+                alt="Chat app"
                 fill
                 className="transition duration-700 group-hover:scale-105"
               />
@@ -176,17 +176,15 @@ export default function Projects() {
             {/* Content */}
             <div className="p-8">
               <h2 className="text-2xl md:text-3xl font-bold mb-4">
-                Daily Mind
+                Real-Time Chat Application
               </h2>
 
               <p className="text-gray-400 mb-6">
-                A full-stack social knowledge platform where users can post interesting facts,
-                explore facts shared by others, like and comment on posts, and generate new
-                facts using AI.
+                A real-time messaging application similar to WhatsApp, featuring instant messaging, typing indicators, online presence, and read receipts for a seamless chat experience. Built using WebSockets for real-time communication.
               </p>
 
               <div className="flex flex-wrap gap-2 mb-6">
-                {["Next.js","Node.js","Express","MongoDB","API"].map((tech) => (
+                {["Next.js","Node.js","Express","MongoDB","WebSockets"].map((tech) => (
                   <span
                     key={tech}
                     className="text-xs bg-slate-800 px-3 py-1 rounded hover:bg-green-500 hover:text-black transition"
@@ -198,7 +196,7 @@ export default function Projects() {
 
               <div className="flex gap-4">
                 <a
-                  href="https://daily-mind-eight.vercel.app"
+                  href="https://chat-app-indol-kappa-80.vercel.app"
                   target="_blank"
                   className="flex items-center gap-2 bg-green-500 text-black px-5 py-2 rounded hover:bg-green-400 transition"
                 >
@@ -207,7 +205,7 @@ export default function Projects() {
                 </a>
 
                 <a
-                  href="https://github.com/Abraham3stack/daily-mind"
+                  href="https://github.com/Abraham3stack/chat-app"
                   target="_blank"
                   className="flex items-center gap-2 border border-slate-600 px-5 py-2 rounded hover:border-green-500 transition"
                 >
@@ -227,7 +225,7 @@ export default function Projects() {
                 </span>
 
                 <span className="bg-slate-800 px-3 py-1 rounded">
-                  🧠 AI Feature
+                  💬 Real-time Chat
                 </span>
               </div>
             </div>

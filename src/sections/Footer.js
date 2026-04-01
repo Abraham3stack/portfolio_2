@@ -7,28 +7,11 @@ export default function Footer() {
     e.preventDefault();
     const href = e.currentTarget.getAttribute("href");
     if (!href) return;
-    const target = document.getElementById(href.replace("#", ""));
 
-    // FIX: remove focus from inputs (prevents contact section auto-scroll hijack)
-    if (document.activeElement) {
-      document.activeElement.blur();
-    }
-
-    if (!target) {
-      console.warn("Scroll target not found:", href);
-    }
+    const target = document.querySelector(href);
 
     if (target) {
-      // slight delay ensures no other focus/observer overrides scroll
-      setTimeout(() => {
-        const navbar = document.querySelector("header");
-        const offset = navbar ? navbar.offsetHeight : 80;
-
-        window.scrollTo({
-          top: target.offsetTop - offset,
-          behavior: "smooth"
-        });
-      }, 50);
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   };
 
@@ -49,7 +32,7 @@ export default function Footer() {
             Abraham Ogbu
           </a>
           <p className="text-sm mt-1 text-gray-400">
-            Building modern web applications with Next.js, Node.js & MongoDB
+            Building modern full-stack applications with React, Next.js, Node.js, MongoDB & TypeScript
           </p>
 
           <p className="text-sm mt-2 text-green-400 flex items-center justify-center gap-2">
@@ -69,7 +52,7 @@ export default function Footer() {
           <a href="#portfolio" className="relative hover:text-green-400 transition after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-green-400 after:transition-all hover:after:w-full"
             onClick={handleScroll}
           >Portfolio</a>
-          <a href="#teck" className="relative hover:text-green-400 transition after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-green-400 after:transition-all hover:after:w-full"
+          <a href="#tech" className="relative hover:text-green-400 transition after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-green-400 after:transition-all hover:after:w-full"
             onClick={handleScroll}
           >Tech</a>
           <a href="#contact" className="relative hover:text-green-400 transition after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-green-400 after:transition-all hover:after:w-full"
@@ -112,7 +95,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <p className="text-xs text-neutral-500 pt-4">
-          © 2026 Abraham Ogbu — Designed & Built with Next.js, Node.js & MongoDB
+          © 2026 Abraham Ogbu — Designed & Built with React, Next.js, Node.js, MongoDB
         </p>
 
       </div>

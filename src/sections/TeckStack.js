@@ -7,6 +7,9 @@ import {
   Globe,
   GitBranch,
   Cloud,
+  Braces,
+  FileCode2,
+  Atom,
 } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -14,8 +17,9 @@ export default function TeckStack() {
   const stack = [
     { name: "HTML", icon: <Code size={28} /> },
     { name: "CSS", icon: <Code size={28} /> },
-    { name: "JavaScript", icon: <Code size={28} /> },
-    { name: "React", icon: <Code size={28} /> },
+    { name: "JavaScript", icon: <Braces size={28} /> },
+    { name: "TypeScript", icon: <FileCode2 size={28} /> },
+    { name: "React", icon: <Atom size={28} /> },
     { name: "Next.js", icon: <Globe size={28} /> },
     { name: "TailwindCSS", icon: <Code size={28} /> },
     { name: "Node.js", icon: <Server size={28} /> },
@@ -28,7 +32,7 @@ export default function TeckStack() {
 
   return (
     <section
-      id="teck"
+      id="tech"
       className="py-28 px-6 bg-black text-white"
     >
       <div className="max-w-6xl mx-auto">

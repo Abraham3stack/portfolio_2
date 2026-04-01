@@ -83,7 +83,7 @@ export default function Journey() {
               </h4>
 
               <p className="text-gray-400">
-                I expanded my knowledge into JavaScript and modern frontend tools including React, Next.js, TailwindCSS and Firebase. During this stage i built several interactive applications while learning how modern web interfaces are built.
+                I expanded into JavaScript and modern frontend tools including React, Next.js, TailwindCSS, and TypeScript. During this stage, I built interactive applications and developed a strong understanding of how modern user interfaces are structured and optimized.
               </p>
             </motion.div>
 
@@ -107,7 +107,7 @@ export default function Journey() {
               </h4>
 
               <p className="text-gray-400">
-                I now build full-stack applications using Node.js, Express and MongoDB. I deploy real projects online and focus on building scalable web applications while completing my training at Code Campus Abuja.
+                I now build full-stack applications using Next.js, Node.js, Express, and MongoDB, integrating features like authentication, real-time functionality, and email services using Nodemailer. I focus on building scalable, production-ready applications and deploying real projects online.
               </p>
             </motion.div>
           </div>
@@ -118,7 +118,7 @@ export default function Journey() {
           <p>
             Technologies I've learned during my journey include: 
             <span className="text-green-500">
-              HTML, CSS, JavaScript, React, Next.js, Firebase,TailwindCSS, Node.js, Express.js, MongoDB, and Deployment.
+              HTML, CSS, JavaScript, TypeScript, React, Next.js, TailwindCSS, Node.js, Express.js, MongoDB, Firebase, and Deployment.
             </span>
           </p>
         </div>

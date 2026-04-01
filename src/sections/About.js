@@ -1,12 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code2, Braces, Server, Database, Rocket } from "lucide-react";
+import { Code2, Braces, Server, Database, Rocket, FileCode2 } from "lucide-react";
 
 const skills = [
-  { name: "HTML & CSS", level: 95, icon: Code2 },
-  { name: "JavaScript", level: 85, icon: Braces },
-  { name: "Next.js", level: 80, icon: Rocket },
+  { name: "HTML & CSS", level: 90, icon: Code2 },
+  { name: "JavaScript", level: 80, icon: Braces },
+  { name: "TypeScript", level: 70, icon: FileCode2 },
+  { name: "React", level: 75, icon: Code2 },
+  { name: "Next.js", level: 85, icon: Rocket },
   { name: "Node.js", level: 75, icon: Server },
   { name: "Express.js", level: 70, icon: Server },
   { name: "MongoDB", level: 70, icon: Database },
@@ -40,7 +42,7 @@ export default function About() {
           />
 
           <p className="text-gray-300 leading-relaxed mb-6">
-            I’m a full‑stack JavaScript developer building modern web apps with Next.js, Node.js, Express, and MongoDB. I enjoy creating responsive interfaces and reliable backend systems that power real products.
+            I am a full-stack JavaScript developer building modern web apps with React, Next.js, Node.js, Express, MongoDB, and TypeScript. I enjoy creating responsive interfaces and reliable backend systems that power real products.
           </p>
 
           <p className="text-gray-300 leading-relaxed mb-6">
@@ -48,7 +50,7 @@ export default function About() {
           </p>
 
           <p className="text-green-400 font-medium">
-            Currently seeking internships, junior developer roles, and opportunities to contribute to impactful products.
+            Currently seeking internship and entry-level developer opportunities where I can contribute to real products, grow as a full-stack developer, and deliver value to a team.
           </p>
         </motion.div>
 
