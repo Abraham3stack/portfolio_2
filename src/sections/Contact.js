@@ -56,6 +56,15 @@ export default function Contact() {
         <p className="text-sm text-gray-500 mt-2">
           Typically replies within 24 hours
         </p>
+        <div className="mt-6 flex justify-center">
+          <a
+            href="/Abraham_Ogbu_Resume.pdf"
+            download
+            className="px-6 py-3 border border-green-500 text-green-400 font-semibold rounded-lg hover:bg-green-500 hover:text-black transition"
+          >
+            Download Resume
+          </a>
+        </div>
 
         {/* Contact Card */}
         <div className="relative mt-14 bg-neutral-900 border border-neutral-800 rounded-3xl p-10 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-green-500/10 overflow-hidden">
