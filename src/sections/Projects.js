@@ -184,7 +184,7 @@ export default function Projects() {
             {/* Content */}
             <div className="p-8">
               <h2 className="text-2xl md:text-3xl font-bold mb-2">
-                PowerTrack – Electricity Usage Intelligence
+                PowerTrack - Electricity Usage Intelligence
               </h2>
 
               <span className="inline-block mb-4 text-xs bg-green-500 text-black px-3 py-1 rounded">
