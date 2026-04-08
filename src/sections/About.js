@@ -11,8 +11,9 @@ const skills = [
   { name: "Next.js", level: 85, icon: Rocket },
   { name: "Node.js", level: 75, icon: Server },
   { name: "Express.js", level: 70, icon: Server },
+  { name: "PostgreSQL (Superbase)", level: 70, icon: Server },
   { name: "MongoDB", level: 70, icon: Database },
-  { name: "Deployment (Git/Vercel)", level: 90, icon: Rocket },
+  { name: "Deployment (Git/Vercel/Railway)", level: 90, icon: Rocket },
 ];
 
 export default function About() {
@@ -42,11 +43,11 @@ export default function About() {
           />
 
           <p className="text-gray-300 leading-relaxed mb-6">
-            I am a full-stack JavaScript developer building modern web apps with React, Next.js, Node.js, Express, MongoDB, and TypeScript. I enjoy creating responsive interfaces and reliable backend systems that power real products.
+            I am a full-stack JavaScript developer building modern web applications using React, Next.js, Node.js, Express, PostgreSQL, and Prisma. I focus on creating responsive user interfaces and scalable backend systems that power real-world products.
           </p>
 
           <p className="text-gray-300 leading-relaxed mb-6">
-            I love turning ideas into functional digital experiences and constantly improving my skills by building real projects and exploring modern development tools.
+            I enjoy turning ideas into functional digital experiences, with a strong focus on clean architecture, performance optimization, and real-world problem solving. I continuously improve by building production-ready projects and working with modern tools like Supabase and Redis.
           </p>
 
           <p className="text-green-400 font-medium">

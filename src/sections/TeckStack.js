@@ -15,6 +15,7 @@ import { motion } from "framer-motion";
 
 export default function TeckStack() {
   const stack = [
+    // Frontend
     { name: "HTML", icon: <Code size={28} /> },
     { name: "CSS", icon: <Code size={28} /> },
     { name: "JavaScript", icon: <Braces size={28} /> },
@@ -22,9 +23,19 @@ export default function TeckStack() {
     { name: "React", icon: <Atom size={28} /> },
     { name: "Next.js", icon: <Globe size={28} /> },
     { name: "TailwindCSS", icon: <Code size={28} /> },
+
+    // Backend
     { name: "Node.js", icon: <Server size={28} /> },
     { name: "Express.js", icon: <Server size={28} /> },
+
+    // Databases
+    { name: "PostgreSQL", icon: <Database size={28} /> },
     { name: "MongoDB", icon: <Database size={28} /> },
+    { name: "Supabase", icon: <Cloud size={28} /> },
+
+    // Tools & Infrastructure
+    { name: "Prisma", icon: <Database size={28} /> },
+    { name: "Redis", icon: <Server size={28} /> },
     { name: "Firebase", icon: <Cloud size={28} /> },
     { name: "Git", icon: <GitBranch size={28} /> },
     { name: "Deployment", icon: <Cloud size={28} /> }

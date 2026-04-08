@@ -7,6 +7,14 @@ import Image from "next/image";
 
 const projects = [
   {
+    title: "PowerTrack",
+    image: "/projects/powertrack.png",
+    description: "A full-stack electricity tracking and prediction system where users can monitor their remaining units (kWh), log daily consumption, and estimate how long their electricity will last. Includes smart insights and recommendations to help optimize usage and reduce waste.",
+    tech: ["Next.js", "Node.js", "Express", "PostgreSQL", "Prisma"],
+    github: "https://github.com/Abraham3stack/electricity-app",
+    live: "https://electricity-app-ten.vercel.app",
+  },
+  {
     title: "Chat app",
     image: "/projects/chat.png",
     description: "A real-time messaging app similar to WhatsApp, featuring instant messaging, typing indicators, online presence, and read receipts, built for a smooth and responsive chat experience.",
@@ -165,8 +173,8 @@ export default function Projects() {
             {/* Image */}
             <div className="relative h-72 md:h-full overflow-hidden group">
               <Image
-                src="/projects/chat.png"
-                alt="Chat app"
+                src="/projects/powertrack.png"
+                alt="PowerTrack"
                 fill
                 className="transition duration-700 group-hover:scale-105"
               />
@@ -175,16 +183,24 @@ export default function Projects() {
 
             {/* Content */}
             <div className="p-8">
-              <h2 className="text-2xl md:text-3xl font-bold mb-4">
-                Real-Time Chat Application
+              <h2 className="text-2xl md:text-3xl font-bold mb-2">
+                PowerTrack – Electricity Usage Intelligence
               </h2>
 
+              <span className="inline-block mb-4 text-xs bg-green-500 text-black px-3 py-1 rounded">
+                🔥 Featured Full-Stack Project
+              </span>
+
+              <p className="text-sm text-green-400 mb-2">
+                Real-world electricity usage prediction system
+              </p>
+
               <p className="text-gray-400 mb-6">
-                A real-time messaging application similar to WhatsApp, featuring instant messaging, typing indicators, online presence, and read receipts for a seamless chat experience. Built using WebSockets for real-time communication.
+                A full-stack electricity tracking and prediction system that allows users to monitor their remaining units (kWh), log daily usage, and estimate how long their electricity will last. The app provides intelligent insights and recommendations to help optimize consumption and reduce waste.
               </p>
 
               <div className="flex flex-wrap gap-2 mb-6">
-                {["Next.js","Node.js","Express","MongoDB","WebSockets"].map((tech) => (
+                {["Next.js","Node.js","Express","PostgreSQL","Prisma"].map((tech) => (
                   <span
                     key={tech}
                     className="text-xs bg-slate-800 px-3 py-1 rounded hover:bg-green-500 hover:text-black transition"
@@ -196,7 +212,7 @@ export default function Projects() {
 
               <div className="flex gap-4">
                 <a
-                  href="https://chat-app-indol-kappa-80.vercel.app"
+                  href="https://electricity-app-ten.vercel.app"
                   target="_blank"
                   className="flex items-center gap-2 bg-green-500 text-black px-5 py-2 rounded hover:bg-green-400 transition"
                 >
@@ -205,7 +221,7 @@ export default function Projects() {
                 </a>
 
                 <a
-                  href="https://github.com/Abraham3stack/chat-app"
+                  href="https://github.com/Abraham3stack/electricity-app"
                   target="_blank"
                   className="flex items-center gap-2 border border-slate-600 px-5 py-2 rounded hover:border-green-500 transition"
                 >
@@ -225,7 +241,7 @@ export default function Projects() {
                 </span>
 
                 <span className="bg-slate-800 px-3 py-1 rounded">
-                  💬 Real-time Chat
+                  ⚡ Smart Energy Tracking
                 </span>
               </div>
             </div>

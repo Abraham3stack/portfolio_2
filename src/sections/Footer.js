@@ -32,7 +32,7 @@ export default function Footer() {
             Abraham Ogbu
           </a>
           <p className="text-sm mt-1 text-gray-400">
-            Building modern full-stack applications with React, Next.js, Node.js, MongoDB & TypeScript
+            Building modern full-stack applications with React, Next.js, Node.js, PostgreSQL, Prisma & TypeScript
           </p>
 
           <p className="text-sm mt-2 text-green-400 flex items-center justify-center gap-2">
@@ -95,7 +95,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <p className="text-xs text-neutral-500 pt-4">
-          © 2026 Abraham Ogbu — Designed & Built with React, Next.js, Node.js, MongoDB
+          © 2026 Abraham Ogbu — Designed & Built with Next.js, Node.js & MongoDB.
         </p>
 
       </div>

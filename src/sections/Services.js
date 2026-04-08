@@ -19,17 +19,17 @@ const services = [
   {
     icon: Code,
     title: "Full-Stack Application Development",
-    description: "Developing full-stack applications using Next.js, Node.js, and MongoDB with integrated frontend, backend logic, and scalable architecture.",
+    description: "Developing full-stack applications using Next.js, Node.js, PostgreSQL, and Prisma with integrated frontend, backend logic, and scalable architecture.",
   },
   {
     icon: Server,
     title: "API Development",
-    description: "Building REST APIs using Node.js and Express to power scalable backend systems and real-world applications.",
+    description: "Building REST APIs using Node.js and Express to power scalable backend systems, with structured data handling and performance-focused architecture.",
   },
   {
     icon: Database,
     title: "Database Integration",
-    description: "Designing and integrating MongoDB databases for efficient data management in full-stack applications.",
+    description: "Designing and integrating PostgreSQL and MongoDB databases, with experience using Prisma ORM and Supabase for efficient data management.",
   },
   {
     icon: Globe,
@@ -39,7 +39,7 @@ const services = [
   {
     icon: Rocket,
     title: "Deployment & DevOps Basics",
-    description: "Deploying and managing applications using Vercel, Railway, and Git, with support for features like email integration using Nodemailer.",
+    description: "Deploying and managing applications using Vercel and Railway, with experience handling environment configuration, database connections, and performance optimization using tools like Redis.",
   },
 ];
 

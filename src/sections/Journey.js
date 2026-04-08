@@ -107,7 +107,7 @@ export default function Journey() {
               </h4>
 
               <p className="text-gray-400">
-                I now build full-stack applications using Next.js, Node.js, Express, and MongoDB, integrating features like authentication, real-time functionality, and email services using Nodemailer. I focus on building scalable, production-ready applications and deploying real projects online.
+                I now build full-stack applications using Next.js, Node.js, Express, PostgreSQL, and Prisma, with experience integrating Supabase for database hosting and Redis for performance optimization. I implement features like authentication, real-time functionality, and scalable APIs while focusing on building production-ready applications and deploying them to modern cloud platforms.
               </p>
             </motion.div>
           </div>
@@ -118,7 +118,7 @@ export default function Journey() {
           <p>
             Technologies I've learned during my journey include: 
             <span className="text-green-500">
-              HTML, CSS, JavaScript, TypeScript, React, Next.js, TailwindCSS, Node.js, Express.js, MongoDB, Firebase, and Deployment.
+              HTML, CSS, JavaScript, TypeScript, React, Next.js, TailwindCSS, Node.js, Express.js, MongoDB, PostgreSQL, Prisma, Supabase, Redis, Firebase, and Deployment.
             </span>
           </p>
         </div>

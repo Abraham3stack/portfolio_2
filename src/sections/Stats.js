@@ -8,7 +8,7 @@ export default function Stats() {
 
   const stats = [
     { label: (<><span>Projects Built</span><br /><span>& Deployed</span></>), value: 30 },
-    { label: (<><span>Technologies</span><br /><span>Used</span></>), value: 12 },
+    { label: (<><span>Technologies</span><br /><span>Used</span></>), value: 16 },
     { label: "Full-Stack Apps", value: 6 },
     { label: "Months Coding", value: 6 }
   ];

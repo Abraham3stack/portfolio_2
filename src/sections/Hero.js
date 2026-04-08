@@ -116,7 +116,7 @@ export default function Hero() {
           </p>
 
           <p className="text-gray-300 mb-8 max-w-xl">
-            I build modern full-stack web applications using React, Next.js, Node.js, Express, MongoDB, and TypeScript — focused on responsive interfaces, scalable backend systems, and real-world product experiences.
+            I build and deploy modern full-stack web applications using React, Next.js, Node.js, PostgreSQL, and Prisma, with experience in scalable backend systems, performance optimization, and real-world product development.
           </p>
 
           <div className="flex flex-row gap-4 justify-center md:justify-start items-center">
