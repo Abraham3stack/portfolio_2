@@ -13,7 +13,7 @@ const skills = [
   { name: "Express.js", level: 70, icon: Server },
   { name: "PostgreSQL (Superbase)", level: 70, icon: Server },
   { name: "MongoDB", level: 70, icon: Database },
-  { name: "Deployment (Git/Vercel/Railway)", level: 90, icon: Rocket },
+  { name: "Deployment (Git/Vercel/Render)", level: 90, icon: Rocket },
 ];
 
 export default function About() {

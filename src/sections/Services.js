@@ -39,7 +39,7 @@ const services = [
   {
     icon: Rocket,
     title: "Deployment & DevOps Basics",
-    description: "Deploying and managing applications using Vercel and Railway, with experience handling environment configuration, database connections, and performance optimization using tools like Redis.",
+    description: "Deploying and managing applications using Vercel and Render, with experience handling environment configuration, database connections, and performance optimization using tools like Redis.",
   },
 ];
 

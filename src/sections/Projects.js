@@ -173,10 +173,10 @@ export default function Projects() {
             {/* Image */}
             <div className="relative h-72 md:h-full overflow-hidden group">
               <Image
-                src="/projects/powertrack.png"
-                alt="PowerTrack"
+                src="/projects/medicore.png"
+                alt="MediCore"
                 fill
-                className="transition duration-700 group-hover:scale-105"
+                className="transition duration-700 group-hover:scale-105 object-cover"
               />
               <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition"></div>
             </div>
@@ -184,23 +184,23 @@ export default function Projects() {
             {/* Content */}
             <div className="p-8">
               <h2 className="text-2xl md:text-3xl font-bold mb-2">
-                PowerTrack - Electricity Usage Intelligence
+                MediCore - Healthcare Management System
               </h2>
 
               <span className="inline-block mb-4 text-xs bg-green-500 text-black px-3 py-1 rounded">
-                🔥 Featured Full-Stack Project
+                🔥 Production-Level Full-Stack Project
               </span>
 
               <p className="text-sm text-green-400 mb-2">
-                Real-world electricity usage prediction system
+                Enterprise healthcare management dashboard
               </p>
 
               <p className="text-gray-400 mb-6">
-                A full-stack electricity tracking and prediction system that allows users to monitor their remaining units (kWh), log daily usage, and estimate how long their electricity will last. The app provides intelligent insights and recommendations to help optimize consumption and reduce waste.
+                A full-stack hospital management system built with role-based authentication for admins, doctors, and patients. Includes appointment management, protected dashboards, JWT authentication, secure REST APIs, backend validation, and production-level security practices.
               </p>
 
               <div className="flex flex-wrap gap-2 mb-6">
-                {["Next.js","Node.js","Express","PostgreSQL","Prisma"].map((tech) => (
+                {["Next.js","Node.js","Express","MongoDB","JWT"].map((tech) => (
                   <span
                     key={tech}
                     className="text-xs bg-slate-800 px-3 py-1 rounded hover:bg-green-500 hover:text-black transition"
@@ -212,7 +212,7 @@ export default function Projects() {
 
               <div className="flex gap-4">
                 <a
-                  href="https://electricity-app-ten.vercel.app"
+                  href="https://medicore-frontend-omega.vercel.app"
                   target="_blank"
                   className="flex items-center gap-2 bg-green-500 text-black px-5 py-2 rounded hover:bg-green-400 transition"
                 >
@@ -221,7 +221,7 @@ export default function Projects() {
                 </a>
 
                 <a
-                  href="https://github.com/Abraham3stack/electricity-app"
+                  href="https://github.com/Abraham3stack/medicore-frontend"
                   target="_blank"
                   className="flex items-center gap-2 border border-slate-600 px-5 py-2 rounded hover:border-green-500 transition"
                 >
@@ -241,7 +241,7 @@ export default function Projects() {
                 </span>
 
                 <span className="bg-slate-800 px-3 py-1 rounded">
-                  ⚡ Smart Energy Tracking
+                  🏥 Role-Based Healthcare System
                 </span>
               </div>
             </div>
